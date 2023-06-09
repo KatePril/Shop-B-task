@@ -34,7 +34,7 @@ public class OrderBController implements BaseController {
 
     private double getOrderCost() {
         return model.getOrderCost(Integer.parseInt(data[1]),
-                Double.parseDouble(data[3]));
+                Double.parseDouble(data[2]));
     }
 
     private double getDeliveryCost() {
