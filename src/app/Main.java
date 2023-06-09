@@ -1,15 +1,11 @@
 package app;
 
-import app.contollers.OrderAController;
-import app.contollers.OrderBController;
-
-import java.util.Scanner;
+import app.contollers.AppController;
 
 public class Main {
-
-    static Scanner scanner;
     public static void main(String[] args) {
-//        filterOption(getOption());
+        AppController controller = new AppController();
+        controller.runApp();
     }
 
 
